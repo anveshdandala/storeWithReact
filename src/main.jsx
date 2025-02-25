@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import FrontPage1Left from "./components/FrontPage1Left";
 import FrontPage1Right from "./components/FrontPage1Right";
 import FrontPage1Nav from "./components/FrontPage1Nav";
-import Customer from "./components/Customer/pages/Customer.jsx"; // Import Customer page
+import Customer from "./components/Customer/pages/Customer"; // Import Customer page
 import "./FrontPage1.css";
 
 function App() {
