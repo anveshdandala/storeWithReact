@@ -1,0 +1,11 @@
+.container-root {
+  width: 1064px;
+  min-width: 1000px;
+  height: 1120px;
+  background-color: rgb(185, 54, 54);
+}
+.left-right-seperator {
+  display: flex;
+  flex-direction: row;
+  height: 1060px;
+}

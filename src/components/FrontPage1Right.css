@@ -1,0 +1,40 @@
+
+/* Right Half */
+.right-half {
+    width: 50%; /* Half the width */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    padding: 1rem;
+    background-image: url('/src/assets/store.jpg'); /* Add background image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+}
+
+.right-half .btn {
+    
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #b68a51;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.right-half .btn:hover {
+    background-color: #b3924b;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width:110%;
+    height:12%;
+}
+
+.right-half .btn:hover {
+    background-color: #b3924b;
+}

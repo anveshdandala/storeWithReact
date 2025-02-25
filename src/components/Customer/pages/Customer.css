@@ -1,0 +1,257 @@
+.container {
+  width: 1064px !important;
+  min-width: 1000px;
+  height: 1120px;
+  background-color: #fefae0 !important;
+  margin-left: 0px;
+  margin-right: auto;
+}
+
+.nav-container {
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  width: 80%;
+  justify-self: center;
+  background-color: #ccd5ae;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  margin-bottom: 1rem;
+}
+.left-nav {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+}
+.form-control {
+  align-self: center !important;
+}
+.nav-container button,
+input {
+  margin: 1rem;
+}
+#search-button,
+#list-button {
+  border-color: white;
+  color: white;
+}
+#search-button:hover,
+#list-button:hover {
+  background-color: #fefae0;
+  color: rgb(66, 60, 60);
+}
+.nav-container form {
+  margin-left: 1rem;
+}
+
+.left-nav input {
+  padding: 0.5rem;
+  margin-left: 1rem;
+  height: 30px;
+  width: 20%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#adds {
+  display: flex;
+  align-items: center;
+  width: 80% !important;
+  height: 500px;
+  margin: 0 auto;
+}
+/* cat */
+.cat-section {
+  width: 100%;
+  height: 100%;
+}
+.cat-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 0.5rem;
+  /* display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1rem;
+  padding: 1rem; */
+}
+.cat-img {
+  width: 100%;
+  height: 150px;
+}
+.cat-h1 {
+  background-color: #fefae0;
+}
+
+.search-container {
+  overflow-y: auto;
+  margin-bottom: 0px;
+  width: 944px;
+
+  /* height: 1000px; */
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+#count-area {
+  background-color: #ccd5ae;
+  height: 120px;
+  position: relative;
+  border: 1px solid;
+  border-width: 1.33333px;
+  border-color: black;
+  border-radius: 0.4rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px;
+}
+#count-area:hover {
+  background-color: #b5c090;
+  /* width: 500px; */
+  height: 125px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 6px 12px 0px;
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+#left-card-sec p {
+  margin-bottom: 0rem;
+}
+#add-button {
+  display: contents;
+  justify-content: center;
+}
+.search-container {
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+li.list-group-item {
+  transition: all 0.2np, ns ease 0.1s; /* Transition over 0.3s with a 0.1s delay */
+}
+
+li.list-group-item:hover {
+  background-color: #f0f0f0; /* Example hover style */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Example hover style */
+}
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.buttons {
+  display: flex;
+  gap: 0px;
+}
+#search-close-flex {
+  display: flex;
+  position: relative;
+}
+.closeButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.buttons > *:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border: none;
+}
+/* #count-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+} */
+.buttons > *:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border: none;
+}
+#left-card-sec {
+  width: 360px;
+}
+.new-div {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+  align-items: center;
+  /* background-color: blue; */
+}
+.new-div .count-text-area {
+  margin-bottom: 0px;
+  height: 28.6667px;
+}
+.search-container {
+  padding-top: 1rem;
+  list-style-type: none;
+}
+#card-area {
+  background-color: #b5c090;
+}
+#li-each-card {
+  background-color: #b5c090 !important;
+}
+#cart-button {
+  background-color: #fefae0;
+}
+#cart-button:hover {
+  background-color: #fffdf0;
+}
+#cart-button span,
+svg {
+  color: rgb(59, 59, 59);
+}
+#add-flex {
+  display: flex;
+}
+#add-flex button:first-child {
+  width: 20px;
+  border-right-width: 0;
+}
+#add-flex button:last-child {
+  width: 20px;
+  border-left: 0;
+}
+#add-flex span {
+  border-color: black;
+  border: 1.33333px outset rgb(0, 0, 0);
+  width: 20px;
+}
+#productscart {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  justify-self: center;
+  width: 900px;
+  z-index: 1050;
+  padding: 0;
+  margin: 0;
+}
+.cart-lower {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+.cart-lower button {
+  color: #888;
+  border-color: rgb(52, 52, 52) !important;
+}
+.cart-lower button:hover {
+  background-color: #b5bc9f;
+  color: rgb(66, 60, 60);
+}

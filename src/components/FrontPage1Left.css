@@ -1,0 +1,61 @@
+.left-half {
+  width: 50%; /* Half the width */
+  display: flex;
+  flex-direction: column; /* Stack greetings and staff sections */
+  /* padding: 1rem; */
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* Greetings Section */
+.greetings {
+  flex: 1; /* Takes up space above Staff */
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  font-family: "Brush Script MT", cursive;
+  justify-content: center;
+  background-color: #e2e2e2;
+  /* padding: 1rem; */
+  margin-bottom: 0;
+  text-align: center;
+}
+.greetings p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: start;
+  line-height: 0.2rem;
+  font-size: 1rem;
+  color: #000000;
+}
+
+.greetings h1 {
+  font-size: 2rem;
+  color: #333;
+}
+/* Staff Section */
+.staff {
+  flex: 1; /* Remaining space in left half */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  background-image: url("/src/assets/staff.jpg");
+  padding: 1rem;
+}
+
+.staff .btn {
+  width: 80%;
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #b68a51;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.staff .btn:hover {
+  width: 83%;
+  height: 11%;
+  background-color: #b3924b;
+}
