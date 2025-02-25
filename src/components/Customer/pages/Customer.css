@@ -153,6 +153,9 @@ li.list-group-item:hover {
   position: relative;
 }
 .closeButton {
+  width: 30px;
+  height: 30px;
+  border: none;
   position: absolute;
   top: 0;
   right: 0;
