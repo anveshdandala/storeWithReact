@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/", // This ensures it runs at http://localhost:5174/
+  base: "/storeWithReact/", // This ensures it runs at http://localhost:5174/
 });
