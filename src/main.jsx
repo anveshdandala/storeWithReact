@@ -12,7 +12,7 @@ import "./FrontPage1.css";
 // import { Link } from "react-router-dom";
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/storeWithReact">
       <Routes>
         {/* Home Page */}
         <Route
